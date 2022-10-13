@@ -10,6 +10,7 @@ jobs:
   hadolint:
     name: Hadolint Dockerfiles
     runs-on: ubuntu-18.04
+    continue-on-error: true
     strategy:
       matrix:
         directory: [bf2, bf1942, bf2142, bt1944, cmw, cod2, cod4, cod5, csgo, tf2]
