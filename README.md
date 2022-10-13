@@ -10,16 +10,16 @@ automatically build.
 
 | Game                             | Image                                                                                    |
 |----------------------------------|------------------------------------------------------------------------------------------|
-| Battlefield 2                    | [lanlords/cod2](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/cod2)     |
+| Battlefield 2                    | [lanlords/bf2](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/bf2)       |
 | Battlefield 1942                 | [lanlords/bf1942](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/bf1942) |
 | Battlefield 2142                 | [lanlords/bf2142](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/bf2142) |
 | Battalion 1944                   | [lanlords/bt1944](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/bt1944) |
 | Chivalry: Medieval Warfare       | [lanlords/cmw](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/cmw)       |
 | Call of Duty 2                   | [lanlords/cod2](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/cod2)     |
-| Call of Duty 4                   | [lanlords/cod2](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/cod4)     |
-| Call of Duty 5                   | [lanlords/cod2](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/cod5)     |
-| Counter-Strike: Global Offensive | [lanlords/cod2](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/csgo)     |
-| Team Fortress 2                  | [lanlords/cod2](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/tf2)      |
+| Call of Duty 4                   | [lanlords/cod4](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/cod4)     |
+| Call of Duty 5                   | [lanlords/cod5](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/cod5)     |
+| Counter-Strike: Global Offensive | [lanlords/csgo](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/csgo)     |
+| Team Fortress 2                  | [lanlords/tf2](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/tf2)       |
 
 #### Directories
 
