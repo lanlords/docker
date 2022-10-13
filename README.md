@@ -2,8 +2,7 @@ Lanlords Docker Images
 ----------------------
 
 Docker images for the game servers used on Lanlords. At the moment these are not
-automatically build. Some games like Call of Duty require game files. Those are
-not provided.
+automatically build.
 
 > ***Note:***
 > *Some games like Call of Duty require game files. These files are not included.*
