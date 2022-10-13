@@ -17,11 +17,9 @@ RUN dpkg --add-architecture i386 \
  && apt-get install -y --no-install-recommends libstdc++6:i386 ca-certificates tar \
  && rm -rf /var/lib/apt/lists/*
 
-# Create the application user
-RUN useradd -m -d $HOME $USER
-
-# Create the default directories
-RUN mkdir -p $HOME/steam $HOME/$USER
+# Create the application user & create default directories
+RUN useradd -m -d $HOME $USER \
+ && mkdir -p $HOME/steam $HOME/$USER
 
 # Change to steam directory
 WORKDIR $HOME/steam

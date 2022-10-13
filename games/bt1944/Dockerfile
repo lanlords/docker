@@ -22,11 +22,9 @@ RUN dpkg --add-architecture i386 \
  && apt-get install -y --no-install-recommends ca-certificates tar steamcmd \
  && rm -rf /var/lib/apt/lists/*
 
-# Create the application user
-RUN useradd -m -d $HOME $USER
-
-# Create the default directories
-RUN mkdir -p $HOME/steam $HOME/$USER $HOME/$USER/Userdir $HOME/$USER/Logs
+# Create the application user & create default directories
+RUN useradd -m -d $HOME $USER \
+ && mkdir -p $HOME/steam $HOME/$USER $HOME/$USER/Userdir $HOME/$USER/Logs
 
 # Change to steam directory
 WORKDIR $HOME/steam
