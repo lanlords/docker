@@ -1,5 +1,8 @@
-Lanlords Docker Images
-----------------------
+[![CodeFactor](https://www.codefactor.io/repository/github/lanlords/docker/badge)](https://www.codefactor.io/repository/github/lanlords/docker)
+[![Discord Online](https://img.shields.io/discord/351732061561946114.svg)](https://discord.lanlords.nl)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+# Lanlords Docker Images
 
 Docker images for the game servers used on Lanlords. At the moment these are not
 automatically build.
@@ -21,12 +24,12 @@ automatically build.
 | Counter-Strike: Global Offensive | [lanlords/csgo](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/csgo)     |
 | Team Fortress 2                  | [lanlords/tf2](https://cloud.docker.com/u/lanlords/repository/docker/lanlords/tf2)       |
 
-#### Directories
+## Directories
 
 * The `games` directory contains all game server docker image data.
 * The `system` directory contains all system/infrastructure docker image data.
 
-#### Development
+## Development
 
 To locally build the images you will have to cd to the game directory and execute a build, for example:
 ```
@@ -34,7 +37,7 @@ cd games/cod2
 docker build -t cod2:test .
 ```
 
-#### Commands
+## Commands
 
 Run container in the background:
 ```
