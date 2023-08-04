@@ -1,3 +1,5 @@
+> ! This repository is superseded by the [lanlords/games](https://github.com/lanlords/games) repository.
+
 [![CodeFactor](https://www.codefactor.io/repository/github/lanlords/docker/badge)](https://www.codefactor.io/repository/github/lanlords/docker)
 [![Discord Online](https://img.shields.io/discord/351732061561946114.svg)](https://discord.lanlords.nl)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
